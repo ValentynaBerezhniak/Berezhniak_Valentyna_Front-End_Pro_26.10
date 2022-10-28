@@ -1,4 +1,4 @@
-const row = '43567'
-const colum = `${row[0]} ${row[1]} ${row[2]} ${row[3]} ${row[4]}`
+const numbers = '43567'
+const NumbersWithBlank = `${numbers[0]} ${numbers[1]} ${numbers[2]} ${numbers[3]} ${numbers[4]}`
 
-console.log(colum)
+console.log(NumbersWithBlank)
