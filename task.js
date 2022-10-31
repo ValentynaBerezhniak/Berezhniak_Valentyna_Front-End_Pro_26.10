@@ -3,15 +3,15 @@ const number1 = Number(prompt('First number'));
 const number2 = Number(prompt('Second number'));
 
 if (mathematicalOperation === 'add') {
-    const result = (number1 + number2) 
+    const result = number1 + number2
     alert(number1+" + "+number2+" = "+ result)
 }
 else if (mathematicalOperation === 'sub') {
-    const result = (number1 - number2) 
+    const result = number1 - number2
     alert(number1+" - "+number2+" = "+ result)
 }
 else if (mathematicalOperation === 'mult') {
-    const result = (number1 * number2) 
+    const result = number1 * number2
     alert(number1+" * "+number2+" = "+ result)
 }
 else if (mathematicalOperation === 'div') {
@@ -19,7 +19,7 @@ else if (mathematicalOperation === 'div') {
     alert("Cannot be divided by zero")
  }
  else {
-     const result = (number1 / number2) 
+     const result = number1 / number2 
      alert(number1+" / "+number2+" = "+ result)
  }
 }
