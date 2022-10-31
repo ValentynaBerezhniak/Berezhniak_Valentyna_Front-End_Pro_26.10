@@ -1,4 +1,3 @@
-document.addEventListner
 const mathematicalOperation = prompt('Mathematical operation: add, sub, mult, div')
 const number1 = Number(prompt('First number'));
 const number2 = Number(prompt('Second number'));
