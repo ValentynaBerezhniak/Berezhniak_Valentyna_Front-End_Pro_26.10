@@ -1,4 +1,3 @@
-document.addEventListner
 const number1 = Number(prompt('Please enter the first number'))
 const number2 = Number(prompt('Please enter the second number'))
 const number3 = Number(prompt('Please enter the third number'))
