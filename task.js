@@ -86,7 +86,7 @@ let multiple_of_3 = ''
 console.log('Всі числа  в діапазоні від 100 до 200 кратні 3 :')
 for (let i = multiple_of_3_first; i <= multiple_of_3_last  ; i++) {
   if (i % 3 === 0 ) {
-  multiple_of_3 += i + ', '
+  multiple_of_3 += i + ' '
   }
 } 
 console.log(multiple_of_3)
