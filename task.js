@@ -116,7 +116,7 @@ array.filter((elem) => console.log(elem))
 // Функція яка видаляє зайві символи з першої строки 
 
 function deleteSymbols(line, arraySymbol) {
-    // Переводимо строку в список окремих символів
+    // Переводимо рядок в список окремих символів
    let arraySymbolLine = line.split('') 
 
    // Створили фільтр та визвали функцію в ньому
@@ -129,7 +129,7 @@ function deleteSymbols(line, arraySymbol) {
        };
        return elem
    });
-   // Переводимо список окремих символів в строку 
+   // Переводимо список окремих символів в рядок 
    return arrayResult.join('')
 }; 
 
