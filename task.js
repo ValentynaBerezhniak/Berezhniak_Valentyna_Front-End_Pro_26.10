@@ -3,7 +3,7 @@
 const variable = {
     current: 0,
     sum(n) {
-      // this описує об'єкт в якому він був описан. 
+      // this описує об'єкт в якому він був визваний. 
       //  this.current пряма силка на змінну яка зберігається в ф-ї 
       this.current = this.current + n;
       return this.current;
