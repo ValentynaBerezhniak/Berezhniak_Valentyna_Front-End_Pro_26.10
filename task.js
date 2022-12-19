@@ -120,3 +120,4 @@ sumEvenPositive(array)
 sumOddPositive(array)
 multPositive(array)
 maxValue(array)
+
